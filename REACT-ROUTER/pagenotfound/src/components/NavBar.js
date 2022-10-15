@@ -12,6 +12,10 @@ export default class NavBar extends Component {
           <li>
             <Link to="/about"> About</Link>
           </li>
+          <li>
+            <Link to="/contact"> Contact</Link>
+            {/* Routes for contact does not exists */}
+          </li>
         </ul>
       </div>
     );
